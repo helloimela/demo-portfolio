@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 export default function LocationPage() {
   return (
     <div>
-      <Header title="Our Stores" />
       <h1>Locations</h1>
       <p>Check out our branches:</p>
       <ul>

@@ -13,7 +13,7 @@ export default function Header({ title, cart = 0 }: HeaderProps) {
       {cart > 0 && <div>Cart: Rp {cart}</div>}
       <nav className="flex gap-4 text-green-400">
         <Link href="/" className="hover:text-green-300">
-          Shops
+          Menu
         </Link>
         <Link href="/location" className="hover:text-green-300">
           Store Locations

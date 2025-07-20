@@ -1,6 +1,21 @@
 export interface ProductProps {
-  productId: string
+  id: string
   name: string
   price: number
-  imageUrl: string
+  thumbnail?: string
+  reviews?: []
+}
+
+export interface MenuProps {
+  name: string;
+  price: number;
+  thumbnail: string;
+}
+
+export interface FormState {
+  message: string
+  errors?: {
+    nameField?: string
+    priceField?: string
+  }
 }
